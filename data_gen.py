@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 # считываем данные
-data = pd.read_csv('./creditcard.csv', index_col=[0])
+data = pd.read_csv('./creditcard — copy.csv', index_col=[0])
 
 # извлекаем список колонок
 data_cols = list(data.columns)
